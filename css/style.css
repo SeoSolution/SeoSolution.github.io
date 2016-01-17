@@ -1,0 +1,146 @@
+/* Copyright Kevin Scozzari (kaaspizza.nl)
+All cool kids in school know how to code */
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+html, body {
+	font-family: 'Raleway', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+a, ul, li, a, span {
+	font-size: 16px;
+	text-decoration: none;
+}
+
+p {
+	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	margin-left: 2cm;
+	margin-right: 2cm;
+	margin-left: 50px;
+}
+
+h1 {
+	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	margin-left: 2cm;
+	margin-right: 2cm;
+	margin-left: 50px;
+}
+
+h2 {
+	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	margin-left: 2cm;
+	margin-right: 2cm;
+	margin-left: 50px;
+}
+
+.tleft {
+	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	margin-left: 28px;
+}
+
+/*	Footer Social Buttons - Colors	*/
+
+.fa-facebook:hover {
+	color: #3b5998;
+}
+
+.fa-facebook {
+	color: #ffffff;
+}
+
+.fa-twitter:hover {
+	color: #66c0cf;
+}
+
+.fa-twitter {
+	color: #ffffff;
+}
+
+.fa-youtube:hover {
+	color: #b71c1c;
+}
+
+.fa-youtube {
+	color: #ffffff;
+}
+
+.fa-google:hover {
+	color: #4285f4;
+}
+
+.fa-google {
+	color: #ffffff;
+}
+
+
+/*	Scrollbar	*/
+
+::-webkit-scrollbar {
+	-webkit-appearance: none;
+	width: 0px;
+	background-color: #111725;
+}
+
+/*	Text selection	*/
+
+::-moz-selection {
+	background: #a2f5ff;
+	text-shadow: none;
+}
+
+::selection {
+	background: #a2f5ff;
+	text-shadow: none;
+}
+
+/*	Scroll to top	*/
+
+.scroll-top-wrapper {
+	color: #ffffff;
+    position: fixed;
+	opacity: 0;
+	visibility: hidden;
+	overflow: hidden;
+	text-align: center;
+	z-index: 99999999;
+	width: 50px;
+	height: 48px;
+	line-height: 48px;
+	right: 30px;
+	bottom: 30px;
+	padding-top: 2px;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-khtml-border-radius: 8px;
+}
+
+.scroll-top-wrapper:hover {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.scroll-top-wrapper.show {
+    visibility: visible;
+    cursor: pointer;
+	opacity: 1.0;
+}
+
+.scroll-top-wrapper i.fa {
+	line-height: inherit;
+}
